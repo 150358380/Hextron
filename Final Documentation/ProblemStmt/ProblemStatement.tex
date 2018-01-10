@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\newcommand\tab[1][0.75cm]{\hspace*{#1}}
+
+\usepackage[normalem]{ulem}
+\usepackage{color}
+
+\usepackage[english,ngerman]{babel}
+\PassOptionsToPackage{english}{babel}
+\selectlanguage{English}
+\usepackage{enumitem}
+\usepackage{booktabs}
+\usepackage{tabularx}
+\usepackage{indentfirst}
+\usepackage{hyperref}
+\usepackage{textgreek}
+
+\hypersetup{colorlinks=true,
+    linkcolor=blue,
+    citecolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    unicode=false}
+
+\oddsidemargin 0mm
+\evensidemargin 0mm
+\textwidth 160mm
+\textheight 200mm
+
+\pagestyle {plain}
+\pagenumbering{arabic}
+
+\renewcommand\baselinestretch{1.0}
+
+\newcounter{stepnum}
+
+\title{SE 3XA3: Problem Statement}
+\date{December 6, 2017}
+\author{Group 3 - Hextron
+		\\ Jason Li lij107
+		\\ Scott Williams willis12
+		\\ Yousaf Shaheen shaheeny
+}
+
+\begin{document} 
+	
+
+\maketitle
+\newpage
+
+\begin{table}[]
+\caption{\bf Revision History}
+\begin{tabularx}{\textwidth}{p{3cm}p{2cm}X}
+\toprule {\bf Date} & {\bf Version} & {\bf Notes}\\
+\midrule
+September 22, 2017 & 1.0 & Revision 0 \\ \hline
+December 6, 2017 & 1.1 & \begin{itemize}[leftmargin=0cm,itemindent=.5cm,labelwidth=\itemindent,labelsep=0cm,align=left,itemsep = 0mm,nosep]
+
+
+  \item Added line breaks between paragraphs.
+  \item Fixed some spelling and/or grammar mistakes.
+  \item Revised and improved sentences to provide a better description.
+  \item Added a description of the additional features that will be implemented into the game.
+  
+\end{itemize} \\
+\bottomrule
+\end{tabularx}
+\end{table}
+\vspace*{\fill}
+
+\newpage
+
+Given the barebone nature of the Hextris.io program built in Javascript, Software Engineering 3XA3's Group 3 has been tasked with developing \sout{a new} {\color{blue}an upgraded} version of the game from the ground up using the Unity game engine \sout{and C\#}. In addition to building a new version from the ground up, the team has been tasked with formulating new additions to the game with the purpose of differentiating our own version with previous editions. This is to provide a more feature-filled version of Hextris with the hopes of providing a source of entertainment to various \sout{end} users \sout{who wish to have a great casual gaming experience}. \\
+
+In essence, the stakeholders can be split up as the project group members, the TAs and professor, as well as the end users which will  be some members of the 3XA3 classroom. The user activities consist of desiring to play a specific mode of Hextris through their personal choice, as well as being able to search for more information surrounding their play session, including high scores relative to other users. The problem affects the users of Hextris because the entertainment factor is largely determined by the end users themselves and their expectations as to what they envision Hextris being in the long-term. With this in mind, our development group must take into consideration what needs to be changed and kept the same while keeping the general playing audience in mind. In addition, our software development group is a stakeholder since the entire process of creating this project is handled by our group members. The TAs and professor who mark our assignment are stakeholders by being an advisor through giving their personal input, which will further help with the direction of where the project goes beyond simple recreation of the Hextris game. The problem affects this group of people because they are the ones who conclude if the direction that the project is going makes sense, but also determine whether the Hextris recreation is too derivative of past versions. The entertainment value of the product is dependent on what new features are formulated, and the TAs have to keep this into consideration when deciding how the project is progressing before creating a final build that will be shown off to members of the Software Engineering 3XA3 class.\\
+
+{\color{blue} The final product that will be created by Hextron will consist of the main functionalities of the original Hextrix game plus some additional features. These additional features are required to be implemented to create a better and upgraded version of the game as outlined by Dr. Ashgar Bokhari. There are two types of additions that will be implemented, one type that changed the gameplay and the other that increases usability. For the gameplay, two new features will be added, more specifically two more types of trapezoids. One type of trapezoid being added is the black trapezoid. This trapezoid will be an obstacle for the player and cannot be destroyed except through the use of rainbow trapezoids. The rainbow trapezoid is the second gameplay addition. The rainbow trapezoid destroys all trapezoids surrounding it when it drops. The rainbow trapezoid is the only way to destroy a black trapezoid. As for the additions that increase usability, Hextron will be implementing a better and more extensive GUI. The new GUI will give users more options and other basic pieces of information, such as instructions on how to play the game. In addition, there will also be a more improved local leaderboard that will be implemented. This new leaderboard will save the highscores on the local machine it is running on, and therefore will be more stable. The last addition being made is music and sound effect. Hextron will implement music into the game that will be playing in the background as the game is being played. There will also be sound effects added for when there is trapezoid elimination. Above are the features that will be implemented in addition to the basic functionalities of the current Hextrix game.} \\
+
+The software environment for this project is mainly within the Desktop environment, as the Unity game engine is mainly designed for desktop use.  In terms of when the program should be used, Hextris would fulfil the criteria of being played within a house environment while also being able to be played along a commute. Additionally, the game is ideal for 10-15 minute intervals consisting of multiple games during this time, and both day and night time playing is completely feasible for Hextris. This is because it is designed as an accessible casual puzzle game, and it is possible to get a serviceable experience of the game within a short time frame. Of course, it is up to the users of Hextris to determine how long they wish to play the game.\\	
+
+\end{document}
